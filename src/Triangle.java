@@ -39,4 +39,7 @@ public class Triangle extends Shape{
     public double getSidesCount(){
         return 3;
     }
+    public String toString() {
+        return  "▲";
+    }
 }

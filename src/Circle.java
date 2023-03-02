@@ -4,6 +4,9 @@ public class Circle extends Shape{
     public Circle(){
         super("Circulo");
     }
+    public String toString() {
+        return  "○";
+    }
     public Circle(double radio){
         this();//llamar al constructor anterior y tiene que ser el primero tambien
         this.radio=radio;
@@ -23,8 +26,8 @@ public class Circle extends Shape{
         this.radio = radio;
     }
     public String draw(){
-        return "●";
-    }
+            return "●";
+        }
     public double getSidesCount(){
         return 1;
     }

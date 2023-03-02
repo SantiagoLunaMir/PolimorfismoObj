@@ -36,4 +36,7 @@ public class Rectangle extends Shape{
     public double getSidesCount(){
         return 4;
     }
+    public String toString() {
+        return  "█";
+    }
 }
